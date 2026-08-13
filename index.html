@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaia | DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">Gaia</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Gaia</span></h1>
+      <h2>DevOps Engineer &amp; Cloud Infrastructure Specialist</h2>
+      <p>Building reliable, scalable, and automated infrastructure for modern software delivery.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a passionate DevOps Engineer with hands-on experience designing and maintaining
+            CI/CD pipelines, container orchestration platforms, and cloud-native architectures.
+            I thrive at the intersection of software development and IT operations, turning
+            complexity into elegant, automated solutions.
+          </p>
+          <p>
+            My focus is on reducing toil, improving deployment frequency, and building the kind
+            of internal platforms that let development teams ship confidently.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">99.9%</span>
+            <span class="stat-label">Uptime Target</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">&#9729;</div>
+          <h3>Cloud Platforms</h3>
+          <ul>
+            <li>AWS (EC2, EKS, S3, RDS, Lambda)</li>
+            <li>Google Cloud Platform</li>
+            <li>Azure DevOps</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#9881;</div>
+          <h3>CI/CD &amp; Automation</h3>
+          <ul>
+            <li>GitHub Actions</li>
+            <li>Jenkins</li>
+            <li>GitLab CI</li>
+            <li>ArgoCD</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128736;</div>
+          <h3>Containers &amp; Orchestration</h3>
+          <ul>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Helm</li>
+            <li>Kustomize</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128187;</div>
+          <h3>Infrastructure as Code</h3>
+          <ul>
+            <li>Terraform</li>
+            <li>Ansible</li>
+            <li>Pulumi</li>
+            <li>CloudFormation</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128202;</div>
+          <h3>Observability</h3>
+          <ul>
+            <li>Prometheus &amp; Grafana</li>
+            <li>ELK Stack</li>
+            <li>Datadog</li>
+            <li>OpenTelemetry</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128274;</div>
+          <h3>Security &amp; Compliance</h3>
+          <ul>
+            <li>SAST / DAST</li>
+            <li>Vault (HashiCorp)</li>
+            <li>Trivy / Snyk</li>
+            <li>SOC 2 readiness</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-tag">Kubernetes · Terraform · AWS</div>
+          <h3>Multi-Region EKS Platform</h3>
+          <p>
+            Designed and deployed a highly available Kubernetes platform across three AWS regions
+            using Terraform modules, with automated failover and global load balancing via Route 53.
+          </p>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm">View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">GitHub Actions · Docker · ArgoCD</div>
+          <h3>Zero-Downtime CI/CD Pipeline</h3>
+          <p>
+            Built a fully automated GitOps pipeline from commit to production with blue/green
+            deployments, automated rollbacks, and Slack notifications — reducing deployment
+            time from 40 minutes to under 5.
+          </p>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm">View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Prometheus · Grafana · Alertmanager</div>
+          <h3>Observability Stack</h3>
+          <p>
+            Implemented a comprehensive monitoring solution with custom dashboards, SLO/SLI
+            tracking, and PagerDuty integration — cutting mean time to detection by 60%.
+          </p>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm">View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Ansible · Vault · Linux</div>
+          <h3>Secrets Management Automation</h3>
+          <p>
+            Automated secret rotation and injection across 200+ microservices using HashiCorp
+            Vault and Ansible, eliminating hardcoded credentials and meeting compliance requirements.
+          </p>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm">View Code</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023 – Present</span>
+            <h3>Senior DevOps Engineer</h3>
+            <h4>Tech Company · Remote</h4>
+            <p>
+              Lead infrastructure and platform engineering for a SaaS product serving 500k+ users.
+              Migrated monolith to microservices on Kubernetes, achieving 40% cost reduction.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2021 – 2023</span>
+            <h3>DevOps Engineer</h3>
+            <h4>Startup · Hybrid</h4>
+            <p>
+              Owned CI/CD, monitoring, and cloud infrastructure on AWS. Built the first internal
+              developer platform, reducing environment provisioning from days to minutes.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2019 – 2021</span>
+            <h3>Systems Administrator</h3>
+            <h4>Enterprise · On-site</h4>
+            <p>
+              Managed Linux and Windows server infrastructure, introduced configuration management
+              with Ansible, and began the journey toward automation and cloud adoption.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="contact-subtitle">Open to new opportunities, collaborations, and interesting problems.</p>
+      <div class="contact-links">
+        <a href="mailto:gaia@example.com" class="contact-card">
+          <span class="contact-icon">&#9993;</span>
+          <span>gaia@example.com</span>
+        </a>
+        <a href="https://github.com/marisia954gmail" class="contact-card" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">&#128025;</span>
+          <span>GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/gaia" class="contact-card" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">&#128101;</span>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Gaia · Built with &#10084; and YAML</p>
+  </footer>
+</body>
+</html>
