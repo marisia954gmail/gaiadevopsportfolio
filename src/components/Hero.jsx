@@ -1,0 +1,5 @@
+function Hero() {
+  return <section className="shell py-20 sm:py-28" aria-labelledby="hero-title"><p className="eyebrow"><span className="mr-3 inline-block h-2 w-2 rounded-full bg-[#e65d3b]" aria-hidden="true" />Full-stack web development</p><div className="mt-12 grid gap-12 lg:grid-cols-[1.3fr_0.7fr] lg:items-end"><h1 id="hero-title" className="text-6xl font-extrabold leading-[0.92] tracking-tight sm:text-8xl">Build clear.<br /><em className="font-serif font-normal">Ship steady.</em></h1><div className="max-w-md"><p className="text-lg leading-8 text-[#465064]">I partner with thoughtful teams to design, build, and maintain web systems that do their job beautifully.</p><a className="button mt-8" href="#contact">Start a conversation <span aria-hidden="true">→</span></a></div></div><div className="mt-20 flex flex-col gap-2 border-t border-[#172033]/15 pt-5 font-mono text-xs uppercase tracking-wider text-[#465064] sm:flex-row sm:justify-between"><span>Independent developer</span><span>Available for focused engagements</span></div></section>
+}
+
+export default Hero
