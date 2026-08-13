@@ -6,16 +6,33 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "heroku-postbuild": "npm run build",
+    "start": "serve -s dist -l $PORT"
   },
   "dependencies": {
     "@vitejs/plugin-react": "6.0.5",
+    "nodemailer": "^9.0.5",
     "react": "19.2.8",
     "react-dom": "19.2.8",
+    "serve": "^14.2.5",
     "vite": "8.2.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.3.0",
     "tailwindcss": "4.3.0"
-  }
+  },
+  "description": "",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marisia954gmail/gaiadevopsportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marisia954gmail/gaiadevopsportfolio/issues"
+  },
+  "homepage": "https://github.com/marisia954gmail/gaiadevopsportfolio#readme"
 }
