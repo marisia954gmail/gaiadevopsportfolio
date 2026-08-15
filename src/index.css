@@ -18,7 +18,9 @@ html { scroll-behavior: smooth; }
   .button { display: inline-flex; align-items: center; gap: 1.25rem; background: #e65d3b; padding: 0.9rem 1.1rem; font-family: "DM Mono", monospace; font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em; color: #fff; transition: background-color 150ms ease; }
   .button:hover { background: #c74528; }
   .field { width: 100%; border-bottom: 1px solid rgb(23 32 51 / 0.25); background: transparent; padding: 0.75rem 0; font-family: "Manrope", sans-serif; font-size: 1rem; font-weight: 400; text-transform: none; letter-spacing: 0; outline: none; }
-  .field:focus { border-color: #e65d3b; }
+  .field:focus { border-color: #e65d3b;  }
 }
+
+nav span {color: #e65d3b; }
 
 @media (min-width: 640px) { .shell { width: min(100% - 5rem, 76rem); } }
