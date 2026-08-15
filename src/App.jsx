@@ -7,7 +7,7 @@ import Projects from './components/Projects'
 
 function App() {
   return (
-    <div className="overflow-x-hidden bg-[#f6f8fb] text-[#172033]">
+    <div className=" bg-[#f6f8fb] text-[#172033]">
       <Header />
       <main id="home" className="bg-[#e4e8ee]">
         <Hero />
