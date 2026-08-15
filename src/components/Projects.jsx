@@ -2,7 +2,7 @@ import SectionHeading from './SectionHeading'
 import { expertiseGroups } from '../data/portfolio'
 
 function Projects() {
-  return <section className="bg-[#e4e8ee] py-20 sm:py-28" id="services" aria-labelledby="services-title"><div className="shell"><SectionHeading eyebrow="03 / Services" title={<>The work behind<br />a steady launch.</>}><p>Practical technical support from the first build through deployment, maintenance, and the next useful improvement.</p></SectionHeading><div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">{expertiseGroups.map((service) => <ServiceCard key={service.title} service={service} />)}</div></div></section>
+  return <section className="bg-[#f6f8fb] py-20 sm:py-28" id="services" aria-labelledby="services-title"><div className="shell"><SectionHeading eyebrow="03 / Services" title={<>The work behind<br />a steady launch.</>}><p>Practical technical support from the first build through deployment, maintenance, and the next useful improvement.</p></SectionHeading><div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">{expertiseGroups.map((service) => <ServiceCard key={service.title} service={service} />)}</div></div></section>
 }
 
 function ServiceCard({ service }) {
