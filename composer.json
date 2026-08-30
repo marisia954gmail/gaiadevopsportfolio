@@ -1,0 +1,18 @@
+{
+    "name": "marisia/portfolio-wemail",
+    "autoload": {
+        "psr-4": {
+            "Marisia\\PortfolioWemail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marisia",
+            "email": "marisia954@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.7",
+        "resend/resend-php": "^1.10"
+    }
+}
