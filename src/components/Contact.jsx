@@ -11,7 +11,7 @@ function Contact() {
     setStatus('sending')
 
     try {
-      const response = await fetch('/send-email', {
+      const response = await fetch('https://email.gaiadevops.com/api/send-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
