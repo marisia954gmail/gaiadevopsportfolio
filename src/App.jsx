@@ -12,7 +12,7 @@ function App() {
       <main id="home" className="bg-[#e4e8ee]">
         <Hero />
         <Expertise />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
       </main>
       <Footer />
